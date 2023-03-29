@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Refresh" content="10; url=http://www.google.com">
+    <meta name="author" content="Vaishnavi">
+    <meta name="description" content="This website helps to find best buddies">
+    <meta name="keywords" content="friends buddies soulmate">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vaisola</title>
+</head>
+<body>
+    <table cellspacing="10">
+        <tr>
+            <td><img src="Images/my profile photo.png" alt="My Photo" width="200" height="300"></td>
+            <td><h1>Vaishnavi</h1>
+                <p>I am a deadweight <em><strong>House Wife</strong></em></p>
+            </td>
+        </tr>
+    </table>
+    <a href="#My Contact Details">My Contact</a>
+    
+    <hr size="2" noshade="2">
+    <h3>Things I love to learn</h3>
+    <ul>
+        <li>Coding</li> 
+        <li>Swimming</li>
+        <li>Chess <a href="https://www.google.com/search?q=chess&rlz=1C1CHBD_enIN917IN917&sxsrf=APwXEdeP3ZvgRkMd_IdLHXJKRd3fxs9sOg:1679750766761&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC8o2el_f9AhVTcWwGHd8FCFAQ_AUoA3oECAEQBQ&biw=1600&bih=732&dpr=1#imgrc=19hUbY61CfIF8M">Me playing chess</a></li>
+    </ul>
+    <a href="Hobbies.html">My Hobbies</a>
+    <br>
+    <a href="Qualification.html">My Qualification</a>
+    <hr size="2">
+        <h3 id="My Contact Detais">Contact Me</h3>
+    <table>
+        <tr>
+            <td><em><strong>
+                Address:
+            </strong></em></td>
+            <td>66/H,Loose street,</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kilpakkam.</td>
+        </tr>
+        
+    </table>
+    <a href="mailto:Pakki@gmail.com">Email</a>
+    <br>
+    <a href="tel:9988776655">Call Me</a>
+    <h3>Please fill in the below form if your hobbies and interest match mine</h3>
+    <form action="mailto:Vaisola2012@gmail.com" method="post" enctype="text/plain" target="_blank" name="Buddies form" autocomplete="on" id="Cutie">
+        <fieldset>
+            <legend> Personal information:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" autofocus required><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <em><strong>Gender:</strong></em>
+        <label for="gen1">Male:</label>
+        <input type="radio" id="gen1" name="gender">
+        <label for="gen2">Female:</label>
+        <input type="radio" id="gen2" name="gender">
+        <label for="gen3">Others:</label>
+        <input type="radio" id="gen3" name="gender"><br><br>
+        <Label for="age">Age:</Label>
+        <input type="number" id="age"  name="age" min="0" max="40"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+       </fieldset><br><br>
+       <fieldset>
+        <legend>Favourites:</legend>
+        Location:  <select name="location">
+            <option value="Hills">Hills</option>
+            <option value="Beach">Beach</option>
+            <option value="Forest" selected>Forest</option>
+            <option value="Riverside">Riverside</option>
+        </select> <button onclick="alert('I like all locations')">Click me</button><br><br>
+        Fruit:  <input list="Fruits">
+        <datalist id="Fruits">
+            <option value="mango">Mango</option>
+            <option value="jackfruit">Jackfruit</option>
+            <option value="orange">Orange</option>
+        </datalist><br><br>
+        Climate:  <label for="Rainy">Rainy</label>
+        <input type="checkbox" name="climate" id="Rainy">
+        <label for="Cloudy">Cloudy</label>
+        <input type="checkbox" name="climate" id="Cloudy">
+        <label for="Winter">Wintery</label>
+        <input type="checkbox" name="climate" id="Winter">
+        <label for="Summer">Summery</label>
+        <input type="checkbox" name="climate" id="Summer"><br><br>
+        Colour:<input type="color" name="colour">
+       </fieldset><br><br>
+       <h5>Say somethig about yourself:</h5>
+       <textarea name="About them" cols="30" rows="10"></textarea><br><br>
+       <button type="submit">Submit</button> <input type="submit" value="Submit to alternate mail" formaction="mailto:prankymonkey.vish12@gmail.com"> <button type="reset">Refresh</button>
+    </form>
+    <p>Hi,I hope to come in contact with you soon.<br> We have lot more in common to chit-chat and improve ourselves.<br>Thanks for taking out your precious time to fill out the form. <br><br>❤❤❤Your best buddy</p>
+    Upload your photo:  <input type="file" name="photo" accept="image/*" form="Cutie"><br><br>
+</body>
+</html>
